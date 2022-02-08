@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{321223F1-474C-42A2-80D7-6955212471F2}|Default">
   <MonoDevelop.Ide.ItemProperties.PsyApp.Android FirstBuild="True" PreferredExecutionTarget="Android.J7AXB6007072L96" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PsyApp/Model/Character.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PsyApp/Constant/Constants.cs">
     <Files>
-      <File FileName="PsyApp/Model/Power.cs" Line="1" Column="1" />
-      <File FileName="PsyApp/Model/Character.cs" Line="1" Column="1" />
+      <File FileName="PsyApp/Model/Power.cs" Line="5" Column="2" />
+      <File FileName="PsyApp/Model/Character.cs" Line="5" Column="23" />
+      <File FileName="PsyApp/Constant/Constants.cs" Line="6" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PsyApp" expanded="True">
             <Node name="PsyApp" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Constant" expanded="True">
+                <Node name="Constants.cs" selected="True" />
               </Node>
-              <Node name="Model" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -18,8 +18,10 @@
   <ItemGroup>
     <None Remove="Model\" />
     <None Remove="Newtonsoft.Json" />
+    <None Remove="Constant\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
+    <Folder Include="Constant\" />
   </ItemGroup>
 </Project>
