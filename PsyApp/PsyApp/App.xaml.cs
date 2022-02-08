@@ -1,6 +1,5 @@
-﻿using System;
+﻿using PsyApp.View;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace PsyApp
 {
@@ -10,7 +9,7 @@ namespace PsyApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new PsychonautsPage();
         }
 
         protected override void OnStart()
