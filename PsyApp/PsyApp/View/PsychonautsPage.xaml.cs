@@ -16,5 +16,12 @@ namespace PsyApp.View
             ViewModel = new PsychonautsPageViewModel();
             BindingContext = ViewModel;
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            ViewModel.PopulateCharactersList();
+        }
     }
 }
