@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JMB4Ya3+5YgFqeE8pq1FWQp3xeAdn/5mYCr2/erZhA0YTlV22/0xhfzs8m8Thc8TT+qZkPYzuVUrBEN2Zf4OzA==",
+  "dgSpecHash": "1BzGBth3CwvB6uCt/f7Dp9v+F/SRXKKJEywgw0L9Cf/5zwH3+2HgFz8b2MGRqQTz98sZsRdU7u5uiwzagG8KVQ==",
   "success": true,
   "projectFilePath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
   "expectedPackageFiles": [
+    "/Users/eduardoreis/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.androidx.activity/1.1.0.5/xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.androidx.annotation/1.1.0.8/xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
