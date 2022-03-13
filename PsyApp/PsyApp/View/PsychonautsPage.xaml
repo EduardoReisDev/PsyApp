@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
              ios:Page.UseSafeArea="true"
              BackgroundImageSource="background.jpeg"
              x:Class="PsyApp.View.PsychonautsPage">
@@ -21,7 +22,9 @@
                        FontSize="38"
                        Margin="12"
                        Grid.Row="0"/>
-                <CollectionView ItemsSource="{Binding CharactersList}"
+                <CollectionView x:Name="CharactersCollection"
+                                ItemsSource="{Binding CharactersList}"
+                                SelectionMode="Single"
                                 VerticalScrollBarVisibility="Never"
                                 HorizontalScrollBarVisibility="Never"
                                 HeightRequest="260"
@@ -33,8 +36,9 @@
                     </CollectionView.ItemsLayout>
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Frame Padding="8"
-                                   CornerRadius="4">
+                            <sharpnado:MaterialFrame Padding="8"
+                                                     CornerRadius="4"
+                                                     Style="{StaticResource AcrylicFrame}">
                                 <Grid>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="200"/>
@@ -45,19 +49,19 @@
                                         <RowDefinition Height="Auto"/>
                                     </Grid.RowDefinitions>
                                     <Label Text="{Binding Name}"
-                                           HorizontalOptions="Center"
-                                           FontAttributes="Bold"
-                                           Margin="0,0,0,8"
-                                           FontSize="24"
-                                           Grid.Row="0"/>
+                                            HorizontalOptions="Center"
+                                            FontAttributes="Bold"
+                                            Margin="0,0,0,8"
+                                            FontSize="24"
+                                            Grid.Row="0"/>
                                     <Image Source="{Binding Img}"
-                                           Grid.Row="1"/>
+                                            Grid.Row="1"/>
                                     <Label Text="{Binding Gender}"
-                                           HorizontalOptions="Center"
-                                           FontAttributes="Italic"
-                                           Grid.Row="2"/>
+                                            HorizontalOptions="Center"
+                                            FontAttributes="Italic"
+                                            Grid.Row="2"/>
                                 </Grid>
-                            </Frame>
+                            </sharpnado:MaterialFrame>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                     <CollectionView.Footer>
@@ -82,8 +86,9 @@
                     </CollectionView.ItemsLayout>
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Frame Padding="8"
-                                   CornerRadius="4">
+                            <sharpnado:MaterialFrame Padding="8"
+                                                     CornerRadius="4"
+                                                     Style="{StaticResource AcrylicFrame}">
                                 <Grid>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="180"/>
@@ -105,7 +110,7 @@
                                            HorizontalOptions="Center"
                                            Grid.Row="2"/>
                                 </Grid>
-                            </Frame>
+                            </sharpnado:MaterialFrame>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                     <CollectionView.Footer>

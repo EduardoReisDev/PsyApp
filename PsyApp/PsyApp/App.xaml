@@ -1,8 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
              x:Class="PsyApp.App">
     <Application.Resources>
-
+        <Style x:Key="AcrylicFrame" TargetType="sharpnado:MaterialFrame">
+            <Setter Property="MaterialTheme" Value="AcrylicBlur"/>
+            <Setter Property="LightThemeBackgroundColor" Value="#F1F1F1"/>
+        </Style>
     </Application.Resources>
 </Application>

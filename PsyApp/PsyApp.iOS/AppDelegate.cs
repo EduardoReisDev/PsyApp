@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Sharpnado.MaterialFrame.iOS;
 using UIKit;
 
 namespace PsyApp.iOS
@@ -24,6 +25,8 @@ namespace PsyApp.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            iOSMaterialFrameRenderer.Init();
 
             return base.FinishedLaunching(app, options);
         }

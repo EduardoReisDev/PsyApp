@@ -35,6 +35,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Sharpnado.MaterialFrame/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.356"
+        },
+        "compile": {
+          "lib/netstandard2.0/Sharpnado.MaterialFrame.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Sharpnado.MaterialFrame.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -245,6 +257,37 @@
         "newtonsoft.json.13.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Sharpnado.MaterialFrame/1.3.0": {
+      "sha512": "uj2qykF4DM8TihMgv0YPfFD7+Jkz3cEWNrEKDlJ5j/v7mTZZ30Pc3Z4lHmk+mhLDBRQiePvvgXqby+KpmJkm3Q==",
+      "type": "package",
+      "path": "sharpnado.materialframe/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "images/material_frame.png",
+        "lib/MonoAndroid10.0/Sharpnado.MaterialFrame.Android.dll",
+        "lib/MonoAndroid10.0/Sharpnado.MaterialFrame.Android.pdb",
+        "lib/MonoAndroid10.0/Sharpnado.MaterialFrame.dll",
+        "lib/MonoAndroid10.0/Sharpnado.MaterialFrame.pdb",
+        "lib/Xamarin.Mac/Sharpnado.MaterialFrame.dll",
+        "lib/Xamarin.Mac/Sharpnado.MaterialFrame.macOS.dll",
+        "lib/Xamarin.Mac/Sharpnado.MaterialFrame.macOS.pdb",
+        "lib/Xamarin.Mac/Sharpnado.MaterialFrame.pdb",
+        "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.dll",
+        "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.dll",
+        "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.iOS.pdb",
+        "lib/Xamarin.iOS10/Sharpnado.MaterialFrame.pdb",
+        "lib/netstandard2.0/Sharpnado.MaterialFrame.dll",
+        "lib/netstandard2.0/Sharpnado.MaterialFrame.pdb",
+        "lib/uap10.0.16299/Sharpnado.MaterialFrame.UWP.dll",
+        "lib/uap10.0.16299/Sharpnado.MaterialFrame.UWP.pdb",
+        "lib/uap10.0.16299/Sharpnado.MaterialFrame.dll",
+        "lib/uap10.0.16299/Sharpnado.MaterialFrame.pdb",
+        "sharpnado.materialframe.1.3.0.nupkg.sha512",
+        "sharpnado.materialframe.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -566,6 +609,7 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 13.0.1",
+      "Sharpnado.MaterialFrame >= 1.3.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
@@ -616,6 +660,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "Sharpnado.MaterialFrame": {
+            "target": "Package",
+            "version": "[1.3.0, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

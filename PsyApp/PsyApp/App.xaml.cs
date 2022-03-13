@@ -9,6 +9,8 @@ namespace PsyApp
         {
             InitializeComponent();
 
+            Sharpnado.MaterialFrame.Initializer.Initialize(loggerEnable: false, debugLogEnable: false);
+
             MainPage = new PsychonautsPage();
         }
 

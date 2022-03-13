@@ -110,19 +110,23 @@
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/bin/iPhoneSimulator/Debug/PsyApp.dll
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/bin/iPhoneSimulator/Debug/PsyApp.pdb
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/actool/_PartialAppManifest.items
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/actool/_BundleResourceWithLogicalName.items
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/actool/_ProcessedImageAssetsPath.items
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/ibtool/_BundleResourceWithLogicalName.items
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/ibtool/_ProcessedInterfaceDefinitionsPath.items
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/coremlc/_PartialAppManifest.items
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/coremlc/_BundleResourceWithLogicalName.items
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/coremlc/_ProcessedCoreMLModelsPath.items
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/_ProcessedBundleResourcesPath.items
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/_ProcessedContentPath.items
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/optimized/
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/PsyApp.iOS.csproj.AssemblyReference.cache
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/PsyApp.iOS.csproj.CoreCompileInputs.cache
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/PsyApp.iOS.csproj.CopyComplete
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/PsyApp.iOS.exe
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/PsyApp.iOS.pdb
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/bin/iPhoneSimulator/Debug/Sharpnado.MaterialFrame.dll
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/bin/iPhoneSimulator/Debug/Sharpnado.MaterialFrame.pdb
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/bin/iPhoneSimulator/Debug/Sharpnado.MaterialFrame.iOS.dll
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/bin/iPhoneSimulator/Debug/Sharpnado.MaterialFrame.iOS.pdb
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/actool/_PartialAppManifest.items
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/actool/_BundleResourceWithLogicalName.items
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/actool/_ProcessedImageAssetsPath.items
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/coremlc/_PartialAppManifest.items
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/_ProcessedBundleResourcesPath.items
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/_ProcessedContentPath.items
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12-15.2/optimized/
