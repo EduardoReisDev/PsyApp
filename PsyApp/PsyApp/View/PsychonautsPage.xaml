@@ -1,9 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true"
+             BackgroundImageSource="background.jpeg"
              x:Class="PsyApp.View.PsychonautsPage">
 
     <ContentPage.Content>
-        <Label Text="Teste"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Text="Personagens"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontSize="38"
+                   Margin="12"
+                   Grid.Row="0"/>
+            <CarouselView ItemsSource="{Binding CharactersList}"
+                          Grid.Row="1">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Image Source="{Binding Img}"/>
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Gender}"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <Label Text="Poderes"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontSize="38"
+                   Margin="12"
+                   Grid.Row="2"/>
+            <CarouselView ItemsSource="{Binding PowersList}"
+                          Grid.Row="3">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Image Source="{Binding Img}"/>
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Description}"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

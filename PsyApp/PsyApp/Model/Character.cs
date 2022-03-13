@@ -19,7 +19,7 @@ namespace PsyApp.Model
         public string Name { get; set; }
 
         [JsonProperty("psiPowers")]
-        public List<Power> powers { get; set; }
+        public List<Power> Powers { get; set; }
 
         [JsonProperty("__v")]
         public long V { get; set; }

@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
 using PsyApp.Constant;
 using PsyApp.Model;
@@ -11,8 +9,8 @@ namespace PsyApp.ViewModel
 {
     public class PsychonautsPageViewModel : BaseViewModel
     {
-        public ObservableCollection<Power> PowersList { get; set; }
         public ObservableCollection<Character> CharactersList { get; set; }
+        public ObservableCollection<Power> PowersList { get; set; }
 
         private readonly HttpClient httpClient;
 
@@ -46,7 +44,7 @@ namespace PsyApp.ViewModel
 
         private ObservableCollection<Power> RetrieveAllPowers()
         {
-            var powersSerialized = httpClient.GetStringAsync(Constants.CaractersURL).Result;
+            var powersSerialized = httpClient.GetStringAsync(Constants.PowersURL).Result;
             var powersDeserialized = JsonConvert.DeserializeObject<List<Power>>(powersSerialized);
 
             ObservableCollection<Power> allPowers = new(powersDeserialized);
