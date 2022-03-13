@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{3FD6BC98-CC70-4458-9F9E-DEA002BAC42E}|Default">
-  <MonoDevelop.Ide.ItemProperties.PsyApp.Android FirstBuild="True" PreferredExecutionTarget="Android.J7AXB6007072L96" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PsyApp/Model/Power.cs">
+  <MonoDevelop.Ide.ItemProperties.PsyApp.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PsyApp/View/PsychonautsPage.xaml">
     <Files>
-      <File FileName="PsyApp/View/PsychonautsPage.xaml" Line="22" Column="53" />
-      <File FileName="PsyApp/View/PsychonautsPage.xaml.cs" Line="19" Column="10" />
-      <File FileName="PsyApp/ViewModel/PsychonautsPageViewModel.cs" Line="52" Column="1" />
-      <File FileName="PsyApp/Constant/Constants.cs" Line="6" Column="83" />
-      <File FileName="PsyApp/Model/Character.cs" Line="6" Column="2" NotebookId="1" />
-      <File FileName="PsyApp/Model/Power.cs" Line="4" Column="2" NotebookId="1" />
+      <File FileName="PsyApp/View/PsychonautsPage.xaml" Line="28" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,15 +10,17 @@
           <Node name="PsyApp" expanded="True">
             <Node name="PsyApp" expanded="True">
               <Node name="Constant" expanded="True" />
-              <Node name="Model" expanded="True">
-                <Node name="Power.cs" selected="True" />
-              </Node>
+              <Node name="Model" expanded="True" />
               <Node name="View" expanded="True">
-                <Node name="PsychonautsPage.xaml" expanded="True" />
+                <Node name="PsychonautsPage.xaml" expanded="True" selected="True" />
               </Node>
               <Node name="ViewModel" expanded="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
+            <Node name="PsyApp.Android" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+            <Node name="PsyApp.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

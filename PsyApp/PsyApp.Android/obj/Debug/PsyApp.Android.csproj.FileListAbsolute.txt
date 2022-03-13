@@ -575,3 +575,4 @@
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/Debug/PsyApp.Android.csproj.AssemblyReference.cache

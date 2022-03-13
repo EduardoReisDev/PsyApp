@@ -7,49 +7,112 @@
              x:Class="PsyApp.View.PsychonautsPage">
 
     <ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-            <Label Text="Personagens"
-                   TextColor="White"
-                   FontAttributes="Bold"
-                   FontSize="38"
-                   Margin="12"
-                   Grid.Row="0"/>
-            <CarouselView ItemsSource="{Binding CharactersList}"
-                          Grid.Row="1">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout>
-                            <Image Source="{Binding Img}"/>
-                            <Label Text="{Binding Name}"/>
-                            <Label Text="{Binding Gender}"/>
-                        </StackLayout>
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
-            </CarouselView>
-            <Label Text="Poderes"
-                   TextColor="White"
-                   FontAttributes="Bold"
-                   FontSize="38"
-                   Margin="12"
-                   Grid.Row="2"/>
-            <CarouselView ItemsSource="{Binding PowersList}"
-                          Grid.Row="3">
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout>
-                            <Image Source="{Binding Img}"/>
-                            <Label Text="{Binding Name}"/>
-                            <Label Text="{Binding Description}"/>
-                        </StackLayout>
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
-            </CarouselView>
-        </Grid>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label Text="Characters"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       FontSize="38"
+                       Margin="12"
+                       Grid.Row="0"/>
+                <CollectionView ItemsSource="{Binding CharactersList}"
+                                VerticalScrollBarVisibility="Never"
+                                HorizontalScrollBarVisibility="Never"
+                                HeightRequest="260"
+                                Margin="8,0,0,0"
+                                Grid.Row="1">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Horizontal"
+                                           ItemSpacing="10"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="8"
+                                   CornerRadius="4">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding Name}"
+                                           HorizontalOptions="Center"
+                                           FontAttributes="Bold"
+                                           Margin="0,0,0,8"
+                                           FontSize="24"
+                                           Grid.Row="0"/>
+                                    <Image Source="{Binding Img}"
+                                           Grid.Row="1"/>
+                                    <Label Text="{Binding Gender}"
+                                           HorizontalOptions="Center"
+                                           FontAttributes="Italic"
+                                           Grid.Row="2"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                    <CollectionView.Footer>
+                        <StackLayout WidthRequest="60"/>
+                    </CollectionView.Footer>
+                </CollectionView>
+                <Label Text="Powers"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       FontSize="38"
+                       Margin="12"
+                       Grid.Row="2"/>
+                <CollectionView ItemsSource="{Binding PowersList}"
+                                VerticalScrollBarVisibility="Never"
+                                HorizontalScrollBarVisibility="Never"
+                                HeightRequest="260"
+                                Margin="8,0,0,0"
+                                Grid.Row="3">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Horizontal"
+                                           ItemSpacing="10"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="8"
+                                   CornerRadius="4">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="180"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding Name}"
+                                           HorizontalOptions="Center"
+                                           FontAttributes="Bold"
+                                           Margin="0,0,0,8"
+                                           FontSize="24"
+                                           Grid.Row="0"/>
+                                    <Image Source="{Binding Img}"
+                                           Grid.Row="1"/>
+                                    <Label Text="{Binding Description}"
+                                           HorizontalOptions="Center"
+                                           Grid.Row="2"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                    <CollectionView.Footer>
+                        <StackLayout WidthRequest="120"/>
+                    </CollectionView.Footer>
+                </CollectionView>
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

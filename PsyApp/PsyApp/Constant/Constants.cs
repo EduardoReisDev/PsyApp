@@ -1,5 +1,4 @@
-﻿using System;
-namespace PsyApp.Constant
+﻿namespace PsyApp.Constant
 {
     public static class Constants
     {

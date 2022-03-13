@@ -24,12 +24,18 @@ namespace PsyApp.ViewModel
 
         public void PopulateCharactersList()
         {
-            CharactersList = RetrieveAllCharacters();
+            foreach(Character character in RetrieveAllCharacters())
+            {
+                CharactersList.Add(character);
+            }
         }
 
         public void PopulatePowersList()
         {
-            PowersList = RetrieveAllPowers();
+            foreach(Power power in RetrieveAllPowers())
+            {
+                PowersList.Add(power);
+            }
         }
 
         private ObservableCollection<Character> RetrieveAllCharacters()

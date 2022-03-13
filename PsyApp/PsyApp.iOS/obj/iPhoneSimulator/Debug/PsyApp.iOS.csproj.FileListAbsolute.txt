@@ -126,4 +126,3 @@
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/PsyApp.iOS.csproj.CopyComplete
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/PsyApp.iOS.exe
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/PsyApp.iOS.pdb
-/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 mini-14.5/optimized/background.png
