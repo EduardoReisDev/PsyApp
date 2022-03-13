@@ -1,27 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using PsyApp.ViewModel;
+﻿using PsyApp.ViewModel;
 using Xamarin.Forms;
 
 namespace PsyApp.View
 {
     public partial class PsychonautsPage : ContentPage
     {
-        private readonly PsychonautsPageViewModel ViewModel;
+        private readonly PsychonautsPageViewModel viewModel;
 
         public PsychonautsPage()
         {
             InitializeComponent();
 
-            ViewModel = new PsychonautsPageViewModel();
-            BindingContext = ViewModel;
-        }
+            viewModel = new PsychonautsPageViewModel();
+            BindingContext = viewModel;
 
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-
-            ViewModel.PopulateCharactersList();
+            viewModel.PopulateCharactersList();
+            viewModel.PopulatePowersList();
         }
     }
 }

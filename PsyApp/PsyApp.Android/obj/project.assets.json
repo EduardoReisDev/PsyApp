@@ -2184,11 +2184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
+      "projectUniqueName": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
       "projectName": "PsyApp.Android",
-      "projectPath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
+      "projectPath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
       "packagesPath": "/Users/eduardoreis/.nuget/packages/",
-      "outputPath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp.Android/obj/",
+      "outputPath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2203,8 +2203,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/PsyApp.csproj": {
-              "projectPath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/PsyApp.csproj"
+            "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/PsyApp.csproj": {
+              "projectPath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/PsyApp.csproj"
             }
           }
         }

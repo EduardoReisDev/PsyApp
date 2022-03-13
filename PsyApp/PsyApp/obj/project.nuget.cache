@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b91btmwEXWG+gNtLizHVRflU3jcfygZOyS2szSTb74fccWGNcDnkJrNevKhZMrN87eJDOb4vxt3E1b5A8QWU/A==",
+  "dgSpecHash": "DgVfy0Uwzi56fCY1MJKnsXXgj5k8vWiuZ24fj27FXLxzdSqECyNcgw3YgSqymR6MRdq761iHMXLPe7IuV/dRIA==",
   "success": true,
-  "projectFilePath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/PsyApp.csproj",
+  "projectFilePath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/PsyApp.csproj",
   "expectedPackageFiles": [
     "/Users/eduardoreis/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

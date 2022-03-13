@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -13,24 +14,44 @@ namespace PsyApp.ViewModel
         public ObservableCollection<Power> PowersList { get; set; }
         public ObservableCollection<Character> CharactersList { get; set; }
 
+        private readonly HttpClient httpClient;
+
         public PsychonautsPageViewModel()
         {
+            httpClient = new HttpClient();
+            
             PowersList = new ObservableCollection<Power>();
             CharactersList = new ObservableCollection<Character>();
         }
 
         public void PopulateCharactersList()
         {
-            var httpClient = new HttpClient();
-            var content = httpClient.GetStringAsync(Constants.GetCaracters).Result;
-            var CaractersList = JsonConvert.DeserializeObject<Character>(content);
-
-
+            CharactersList = RetrieveAllCharacters();
         }
 
         public void PopulatePowersList()
         {
+            PowersList = RetrieveAllPowers();
+        }
 
+        private ObservableCollection<Character> RetrieveAllCharacters()
+        {
+            var charactersSerialized = httpClient.GetStringAsync(Constants.CaractersURL).Result;
+            var charactersDeserialized = JsonConvert.DeserializeObject<List<Character>>(charactersSerialized);
+
+            ObservableCollection<Character> allCharacters = new(charactersDeserialized);
+
+            return allCharacters;
+        }
+
+        private ObservableCollection<Power> RetrieveAllPowers()
+        {
+            var powersSerialized = httpClient.GetStringAsync(Constants.CaractersURL).Result;
+            var powersDeserialized = JsonConvert.DeserializeObject<List<Power>>(powersSerialized);
+
+            ObservableCollection<Power> allPowers = new(powersDeserialized);
+
+            return allPowers;
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj": {}
+    "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj": {}
   },
   "projects": {
-    "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj": {
+    "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
+        "projectUniqueName": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
         "projectName": "PsyApp.Android",
-        "projectPath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
+        "projectPath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
         "packagesPath": "/Users/eduardoreis/.nuget/packages/",
-        "outputPath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp.Android/obj/",
+        "outputPath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/PsyApp.csproj": {
-                "projectPath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/PsyApp.csproj"
+              "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/PsyApp.csproj": {
+                "projectPath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/PsyApp.csproj"
               }
             }
           }
@@ -48,14 +48,14 @@
         }
       }
     },
-    "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/PsyApp.csproj": {
+    "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/PsyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/PsyApp.csproj",
+        "projectUniqueName": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/PsyApp.csproj",
         "projectName": "PsyApp",
-        "projectPath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/PsyApp.csproj",
+        "projectPath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/PsyApp.csproj",
         "packagesPath": "/Users/eduardoreis/.nuget/packages/",
-        "outputPath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/obj/",
+        "outputPath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/eduardoreis/.config/NuGet/NuGet.Config"
@@ -111,7 +111,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }

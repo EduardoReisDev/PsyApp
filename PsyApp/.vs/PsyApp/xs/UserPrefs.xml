@@ -3,17 +3,19 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="PsyApp/ViewModel/PsychonautsPageViewModel.cs">
     <Files>
       <File FileName="PsyApp/Model/Power.cs" Line="5" Column="2" />
-      <File FileName="PsyApp/Model/Character.cs" Line="5" Column="23" />
-      <File FileName="PsyApp/Constant/Constants.cs" Line="3" Column="2" />
+      <File FileName="PsyApp/Model/Character.cs" Line="15" Column="30" />
       <File FileName="PsyApp/View/PsychonautsPage.xaml" Line="10" Column="1" />
-      <File FileName="PsyApp/View/PsychonautsPage.xaml.cs" Line="19" Column="48" />
-      <File FileName="PsyApp/ViewModel/PsyconautsPageViewModel.cs" Line="23" Column="10" />
+      <File FileName="PsyApp/View/PsychonautsPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="PsyApp/ViewModel/PsychonautsPageViewModel.cs" Line="42" Column="79" />
+      <File FileName="PsyApp/Constant/Constants.cs" Line="6" Column="83" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PsyApp" expanded="True">
             <Node name="PsyApp" expanded="True">
+              <Node name="Constant" expanded="True" />
+              <Node name="Model" expanded="True" />
               <Node name="View" expanded="True">
                 <Node name="PsychonautsPage.xaml" expanded="True" />
               </Node>
@@ -29,10 +31,10 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.PsyApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.248B2D16-E8EB-4A44-A3CE-43C698CAC3EB" />
+  <MonoDevelop.Ide.ItemProperties.PsyApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F633204C-AE6F-44A4-BFF9-F13E16D09E1C" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/ViewModel/PsychonautsPageViewModel.cs" relfile="PsyApp/ViewModel/PsychonautsPageViewModel.cs" line="23" column="1" />
+      <Breakpoint file="/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/ViewModel/PsychonautsPageViewModel.cs" relfile="PsyApp/ViewModel/PsychonautsPageViewModel.cs" line="38" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

@@ -576,11 +576,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/PsyApp.csproj",
+      "projectUniqueName": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/PsyApp.csproj",
       "projectName": "PsyApp",
-      "projectPath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/PsyApp.csproj",
+      "projectPath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/PsyApp.csproj",
       "packagesPath": "/Users/eduardoreis/.nuget/packages/",
-      "outputPath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp/obj/",
+      "outputPath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/eduardoreis/.config/NuGet/NuGet.Config"
@@ -636,7 +636,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }

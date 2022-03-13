@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1BzGBth3CwvB6uCt/f7Dp9v+F/SRXKKJEywgw0L9Cf/5zwH3+2HgFz8b2MGRqQTz98sZsRdU7u5uiwzagG8KVQ==",
+  "dgSpecHash": "/ScBz9PFGipd1fNg8edxSrAKDSaqRteH1/CDPqcYUoWol8F3Lz+9+MYF9YhV1aux8i/mLA0L6/Esu0ipFWwb/Q==",
   "success": true,
-  "projectFilePath": "/Users/eduardoreis/Documents/GitHub/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
+  "projectFilePath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/PsyApp.Android.csproj",
   "expectedPackageFiles": [
     "/Users/eduardoreis/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
