@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RGtF0udjHmZ6KHQD2fftJ1txJG55I97bqdRYgyT+mdEUrVFHaoX/mhjiPQMKxL8eLyM9ZlCP5k08ew46jWMO/Q==",
+  "dgSpecHash": "aAoTAILTxKkVH/c+Aw5ExDJ73QlxM2hZyw9J+634aQXU96To8Yy7BWTQ75tfdTpjIHQNa0oHD4FW1Ly6mnFLUA==",
   "success": true,
   "projectFilePath": "/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.iOS/PsyApp.iOS.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "/Users/eduardoreis/.nuget/packages/sharpnado.materialframe/1.3.0/sharpnado.materialframe.1.3.0.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/eduardoreis/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
-    "/Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "/Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2291/xamarin.forms.5.0.0.2291.nupkg.sha512"
   ],
   "logs": []
 }

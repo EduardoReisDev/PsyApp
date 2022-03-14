@@ -5,11 +5,12 @@
              xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
              ios:Page.UseSafeArea="true"
              BackgroundImageSource="background.jpeg"
-             x:Class="PsyApp.View.PsychonautsPage">
+             x:Class="PsyApp.View.PsychonautsPage"
+             NavigationPage.HasNavigationBar="False">
 
     <ContentPage.Content>
         <ScrollView>
-            <Grid>
+            <Grid Margin="0,0,0,40">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
@@ -37,7 +38,7 @@
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <sharpnado:MaterialFrame Padding="8"
-                                                     CornerRadius="4"
+                                                     CornerRadius="8"
                                                      Style="{StaticResource AcrylicFrame}">
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -49,17 +50,17 @@
                                         <RowDefinition Height="Auto"/>
                                     </Grid.RowDefinitions>
                                     <Label Text="{Binding Name}"
-                                            HorizontalOptions="Center"
-                                            FontAttributes="Bold"
-                                            Margin="0,0,0,8"
-                                            FontSize="24"
-                                            Grid.Row="0"/>
+                                           HorizontalOptions="Center"
+                                           FontAttributes="Bold"
+                                           Margin="0,0,0,8"
+                                           FontSize="24"
+                                           Grid.Row="0"/>
                                     <Image Source="{Binding Img}"
-                                            Grid.Row="1"/>
+                                           Grid.Row="1"/>
                                     <Label Text="{Binding Gender}"
-                                            HorizontalOptions="Center"
-                                            FontAttributes="Italic"
-                                            Grid.Row="2"/>
+                                           HorizontalOptions="Center"
+                                           FontAttributes="Italic"
+                                           Grid.Row="2"/>
                                 </Grid>
                             </sharpnado:MaterialFrame>
                         </DataTemplate>
@@ -87,7 +88,7 @@
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <sharpnado:MaterialFrame Padding="8"
-                                                     CornerRadius="4"
+                                                     CornerRadius="8"
                                                      Style="{StaticResource AcrylicFrame}">
                                 <Grid>
                                     <Grid.ColumnDefinitions>

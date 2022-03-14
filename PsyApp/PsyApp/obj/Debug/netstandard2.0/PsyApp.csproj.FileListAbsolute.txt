@@ -17,6 +17,7 @@
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/bin/Debug/netstandard2.0/PsyApp.dll
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/bin/Debug/netstandard2.0/ref/PsyApp.dll
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/bin/Debug/netstandard2.0/PsyApp.pdb
+/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/obj/Debug/netstandard2.0/PsyApp.csproj.AssemblyReference.cache
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/obj/Debug/netstandard2.0/PsyApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp/obj/Debug/netstandard2.0/View/CharacterPage.xaml.g.cs

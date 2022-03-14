@@ -1,24 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PsyApp.View.CharacterPage">
+             x:Class="PsyApp.View.CharacterPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:sharpnado="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
+             ios:Page.UseSafeArea="true"
+             Title="{Binding Name}"
+             BackgroundImageSource="background.jpeg">
 
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="{Binding Name}"/>
-            <Label Text="{Binding Gender}"/>
-            <Image Source="{Binding Image}"/>
-            <ListView ItemsSource="{Binding PowersList}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout>
-                            <Label Text="{Binding Name}"/>
-                            <Label Text="{Binding Description}"/>
-                            <Image Source="{Binding Img}"/>
-                        </StackLayout>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
+        <sharpnado:MaterialFrame Padding="8"
+                                 Margin="20"
+                                 CornerRadius="8"
+                                 Style="{StaticResource AcrylicFrame}">
+            <StackLayout>
+                <Image Source="{Binding Image}"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,0"/>
+                <Label Text="{Binding Gender}"
+                       HorizontalOptions="Center"
+                       FontAttributes="Italic"
+                       Margin="12"/>
+                <ListView ItemsSource="{Binding PowersList}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Label Text="{Binding Name}"/>
+                                <Label Text="{Binding Description}"/>
+                                <Image Source="{Binding Img}"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </sharpnado:MaterialFrame>
     </ContentPage.Content>
 </ContentPage>

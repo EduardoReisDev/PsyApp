@@ -7,18 +7,37 @@ using PsyApp.Model;
 
 namespace PsyApp.ViewModel
 {
-    public class CharacterViewModel
+    public class CharacterViewModel : BaseViewModel
     {
-        public ObservableCollection<Power> PowersList { get; set; } = new ObservableCollection<Power>();
-        public string Name { get; set; }
-        public string Gender { get; set; }
-        public Uri Image { get; set; }
+        public ObservableCollection<Power> PowersList { get; set; }
+
+        public string Name
+        {
+            get => name;
+            set => SetProperty(ref name, value);
+        }
+
+        public string Gender
+        {
+            get => gender;
+            set => SetProperty(ref gender, value);
+        }
+
+        public Uri Image
+        {
+            get => image;
+            set => SetProperty(ref image, value);
+        }
 
         private readonly string characterName;
+        private string name;
+        private string gender;
+        private Uri image;
 
         public CharacterViewModel(string characterName)
         {
             this.characterName = characterName;
+            PowersList = new ObservableCollection<Power>();
         }
 
         public void SetCharacterInfo()
@@ -43,7 +62,14 @@ namespace PsyApp.ViewModel
         {
             foreach (Power power in character.Powers)
             {
-                PowersList.Add(power);
+                try
+                {
+                    PowersList.Add(power);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
             }
         }
     }
