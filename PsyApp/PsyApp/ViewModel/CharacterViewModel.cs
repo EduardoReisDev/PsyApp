@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http;
 using Newtonsoft.Json;
@@ -37,7 +38,6 @@ namespace PsyApp.ViewModel
         public CharacterViewModel(string characterName)
         {
             this.characterName = characterName;
-            PowersList = new ObservableCollection<Power>();
         }
 
         public void SetCharacterInfo()
@@ -48,7 +48,7 @@ namespace PsyApp.ViewModel
             Gender = character.Gender;
             Image = character.Img;
 
-            //FillThePowerList(character);
+            FillThePowerList(character);
         }
 
         private Character GetCharacter()
@@ -60,16 +60,13 @@ namespace PsyApp.ViewModel
 
         private void FillThePowerList(Character character)
         {
-            foreach (Power power in character.Powers)
+            List<Power> powersList = new();
+            powersList.AddRange(character.Powers);
+            PowersList = new ObservableCollection<Power>();
+
+            foreach (Power power in powersList)
             {
-                try
-                {
-                    PowersList.Add(power);
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
+                PowersList.Add(power);
             }
         }
     }
