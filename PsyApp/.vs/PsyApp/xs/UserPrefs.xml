@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.PsyApp.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PsyApp/ViewModel/CharacterViewModel.cs">
     <Files>
-      <File FileName="PsyApp/ViewModel/CharacterViewModel.cs" Line="51" Column="15" />
+      <File FileName="PsyApp/ViewModel/CharacterViewModel.cs" Line="52" Column="10" />
       <File FileName="PsyApp/View/CharacterPage.xaml" Line="20" Column="47" />
       <File FileName="PsyApp/View/PsychonautsPage.xaml" Line="17" Column="51" />
       <File FileName="PsyApp/View/CharacterPage.xaml.cs" Line="11" Column="10" />
