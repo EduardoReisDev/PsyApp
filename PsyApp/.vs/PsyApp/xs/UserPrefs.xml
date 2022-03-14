@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{3FD6BC98-CC70-4458-9F9E-DEA002BAC42E}|Default">
   <MonoDevelop.Ide.ItemProperties.PsyApp.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PsyApp/ViewModel/CharacterViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PsyApp/View/CharacterPage.xaml">
     <Files>
-      <File FileName="PsyApp/ViewModel/CharacterViewModel.cs" Line="64" Column="44" />
-      <File FileName="PsyApp/View/CharacterPage.xaml" Line="23" Column="37" />
+      <File FileName="PsyApp/ViewModel/CharacterViewModel.cs" Line="22" Column="10" />
+      <File FileName="PsyApp/View/CharacterPage.xaml" Line="18" Column="50" />
       <File FileName="PsyApp/View/PsychonautsPage.xaml" />
       <File FileName="PsyApp/View/CharacterPage.xaml.cs" />
     </Files>
@@ -17,12 +17,10 @@
               </Node>
               <Node name="Model" expanded="True" />
               <Node name="View" expanded="True">
-                <Node name="CharacterPage.xaml" expanded="True" />
+                <Node name="CharacterPage.xaml" expanded="True" selected="True" />
                 <Node name="PsychonautsPage.xaml" expanded="True" />
               </Node>
-              <Node name="ViewModel" expanded="True">
-                <Node name="CharacterViewModel.cs" selected="True" />
-              </Node>
+              <Node name="ViewModel" expanded="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="PsyApp.iOS" expanded="True" />
