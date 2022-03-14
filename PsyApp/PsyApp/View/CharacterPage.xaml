@@ -4,6 +4,21 @@
              x:Class="PsyApp.View.CharacterPage">
 
     <ContentPage.Content>
-        
+        <StackLayout>
+            <Label Text="{Binding Name}"/>
+            <Label Text="{Binding Gender}"/>
+            <Image Source="{Binding Image}"/>
+            <ListView ItemsSource="{Binding PowersList}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding Description}"/>
+                            <Image Source="{Binding Img}"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

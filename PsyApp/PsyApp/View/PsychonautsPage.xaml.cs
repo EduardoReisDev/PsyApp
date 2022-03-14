@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using PsyApp.Model;
+﻿using PsyApp.Model;
 using PsyApp.ViewModel;
 using Xamarin.Forms;
 

@@ -11,7 +11,7 @@ namespace PsyApp
 
             Sharpnado.MaterialFrame.Initializer.Initialize(loggerEnable: false, debugLogEnable: false);
 
-            MainPage = new PsychonautsPage();
+            MainPage = new NavigationPage(new PsychonautsPage());
         }
 
         protected override void OnStart()
