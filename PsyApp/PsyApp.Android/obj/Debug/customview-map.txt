@@ -28,6 +28,7 @@ foreground;obj/Debug/res/mipmap-anydpi-v26/icon.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
 FrameLayout;/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/Debug/lp/57/jl/res/layout/bottomtablayout.xml
 item;/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/Debug/lp/57/jl/res/values/styles.xml
+item;obj/Debug/res/values/styles.xml
 LinearLayout;/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/Debug/lp/57/jl/res/layout/bottomtablayout.xml
 paths;/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/Debug/lp/56/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 resources;/Users/eduardoreis/Projects/PsyApp/PsyApp/PsyApp.Android/obj/Debug/lp/57/jl/res/values/attrs.xml

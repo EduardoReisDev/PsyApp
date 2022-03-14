@@ -1,11 +1,16 @@
 ﻿<Properties StartupConfiguration="{3FD6BC98-CC70-4458-9F9E-DEA002BAC42E}|Default">
   <MonoDevelop.Ide.ItemProperties.PsyApp.Android PreferredExecutionTarget="Android.Pixel_2_API_32" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PsyApp/View/CharacterPage.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="PsyApp/ViewModel/CharacterViewModel.cs" Line="22" Column="10" />
       <File FileName="PsyApp/View/CharacterPage.xaml" Line="18" Column="50" />
-      <File FileName="PsyApp/View/PsychonautsPage.xaml" />
-      <File FileName="PsyApp/View/CharacterPage.xaml.cs" />
+      <File FileName="PsyApp/ViewModel/CharacterViewModel.cs" Line="40" Column="60" />
+      <File FileName="PsyApp/ViewModel/PsychonautsPageViewModel.cs" Line="12" Column="58" />
+      <File FileName="PsyApp/App.xaml" Line="16" Column="29" />
+      <File FileName="PsyApp/View/PsychonautsPage.xaml" Line="22" Column="45" />
+      <File FileName="PsyApp.iOS/Info.plist" />
+      <File FileName="PsyApp/View/CharacterPage.xaml.cs" Line="21" Column="1" />
+      <File FileName="PsyApp.Android/Resources/values/colors.xml" Line="4" Column="47" />
+      <File FileName="PsyApp.Android/Resources/values/styles.xml" Line="13" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,13 +22,15 @@
               </Node>
               <Node name="Model" expanded="True" />
               <Node name="View" expanded="True">
-                <Node name="CharacterPage.xaml" expanded="True" selected="True" />
+                <Node name="CharacterPage.xaml" expanded="True" />
                 <Node name="PsychonautsPage.xaml" expanded="True" />
               </Node>
               <Node name="ViewModel" expanded="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="PsyApp.iOS" expanded="True" />
+            <Node name="PsyApp.iOS" expanded="True">
+              <Node name="Assets.xcassets" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -31,7 +38,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.PsyApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A938531A-9C80-420E-A15E-5592EBDF8C69" />
+  <MonoDevelop.Ide.ItemProperties.PsyApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F633204C-AE6F-44A4-BFF9-F13E16D09E1C" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

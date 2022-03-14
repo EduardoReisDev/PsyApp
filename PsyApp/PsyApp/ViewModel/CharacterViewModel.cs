@@ -37,6 +37,7 @@ namespace PsyApp.ViewModel
 
         public CharacterViewModel(string characterName)
         {
+            PowersList = new ObservableCollection<Power>();
             this.characterName = characterName;
         }
 
@@ -62,7 +63,7 @@ namespace PsyApp.ViewModel
         {
             List<Power> powersList = new();
             powersList.AddRange(character.Powers);
-            PowersList = new ObservableCollection<Power>();
+            
 
             foreach (Power power in powersList)
             {

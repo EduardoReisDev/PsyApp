@@ -21,14 +21,52 @@
                        HorizontalOptions="Center"
                        FontAttributes="Italic"
                        Margin="12"/>
-                <ListView ItemsSource="{Binding PowersList}">
+                <Label Text="Powers"
+                       FontAttributes="Bold"
+                       FontSize="18"
+                       Margin="10,0"/>
+                <ListView ItemsSource="{Binding PowersList}"
+                          BackgroundColor="Transparent"
+                          SelectionMode="None"
+                          RowHeight="100"
+                          HorizontalScrollBarVisibility="Never"
+                          VerticalScrollBarVisibility="Never">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <StackLayout>
-                                <Label Text="{Binding Name}"/>
-                                <Label Text="{Binding Description}"/>
-                                <Image Source="{Binding Img}"/>
-                            </StackLayout>
+                            <ViewCell>
+                                <sharpnado:MaterialFrame Padding="0"
+                                                         CornerRadius="8"
+                                                         Margin="0,0,0,8"
+                                                         Style="{StaticResource AcrylicFrame2}">
+                                    <Grid RowSpacing="0"
+                                          VerticalOptions="Center"
+                                          Padding="10">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="60"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Image Source="{Binding Img}"
+                                               HorizontalOptions="Center"
+                                               VerticalOptions="Center"
+                                               Margin="6"
+                                               Grid.Column="0"
+                                               Grid.RowSpan="2"/>
+                                        <Label Text="{Binding Name}"
+                                               FontAttributes="Bold"
+                                               Margin="0,0,0,4"
+                                               Grid.Column="1"
+                                               Grid.Row="0"/>
+                                        <Label Text="{Binding Description}"
+                                               FontAttributes="Italic"
+                                               Grid.Column="1"
+                                               Grid.Row="1"/>
+                                    </Grid>
+                                </sharpnado:MaterialFrame>
+                            </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>

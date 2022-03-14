@@ -8,5 +8,14 @@
             <Setter Property="MaterialTheme" Value="AcrylicBlur"/>
             <Setter Property="LightThemeBackgroundColor" Value="#F1F1F1"/>
         </Style>
+        <Style x:Key="AcrylicFrame2" TargetType="sharpnado:MaterialFrame">
+            <Setter Property="MaterialTheme" Value="AcrylicBlur"/>
+            <Setter Property="Elevation" Value="3"/>
+            <Setter Property="LightThemeBackgroundColor" Value="#FFFFFF"/>
+        </Style>
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="#274029"/>
+            <Setter Property="BarTextColor" Value="White"/>
+        </Style>
     </Application.Resources>
 </Application>
