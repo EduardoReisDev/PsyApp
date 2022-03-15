@@ -1,8 +1,8 @@
 # PsyApp
 
-Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) com Sharpnado.MaterialFrame e consumindo a API https://psychonauts-api.netlify.app/
+Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) com Sharpnado.MaterialFrame e consumindo a API: https://psychonauts-api.netlify.app/
 
-Pacote utilizado: Sharpnado.MaterialFrame https://github.com/roubachof/Sharpnado.MaterialFrame#sharpnadomaterialframe
+Pacote utilizado: Sharpnado.MaterialFrame: https://github.com/roubachof/Sharpnado.MaterialFrame#sharpnadomaterialframe
 
 Consumindo API no Xamarin.Forms: https://eduardoreisdev.medium.com/consumindo-api-no-xamarin-forms-1c9b85b60f08
 
