@@ -4,9 +4,9 @@ Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) consumindo a API https:
 
 Pacote utilizado: Sharpnado.MaterialFrame https://github.com/roubachof/Sharpnado.MaterialFrame#sharpnadomaterialframe
 
-![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 53](https://user-images.githubusercontent.com/52722526/158280101-b1f28535-ef64-4361-b162-0846c161b479.png)
-![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 48](https://user-images.githubusercontent.com/52722526/158280108-f005a020-cd63-4a06-aa68-a622ad4a7d96.png)
-![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 42](https://user-images.githubusercontent.com/52722526/158280112-c1808dd2-f548-4d4d-a560-4568d104b9bd.png)
-![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 36](https://user-images.githubusercontent.com/52722526/158280113-64830238-7f09-4f91-ad23-5c4d63f20a67.png)
-![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 28](https://user-images.githubusercontent.com/52722526/158280116-883742d3-c6d4-4aa6-a402-f9808da913b3.png)
-![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 25](https://user-images.githubusercontent.com/52722526/158280118-0566889d-9a23-4eba-b2d7-d13ef7745882.png)
+![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 25](https://user-images.githubusercontent.com/52722526/158280546-c1621219-cc3b-4e46-844c-4d925e213e99.png)
+![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 28](https://user-images.githubusercontent.com/52722526/158280547-a4ca5a1b-e7ef-4796-bbb9-c6e165f93ef4.png)
+![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 36](https://user-images.githubusercontent.com/52722526/158280552-5c6a0082-826d-4a84-9ad4-952dd5e49ef8.png)
+![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 42](https://user-images.githubusercontent.com/52722526/158280555-c053e438-14f4-4ae4-9c42-f7771101ae16.png)
+![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 48](https://user-images.githubusercontent.com/52722526/158280559-4400e642-758e-47ef-bc22-1e69f3c60ece.png)
+![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 53](https://user-images.githubusercontent.com/52722526/158280563-184ee770-70d3-4d98-8420-4ef661d36dee.png)
