@@ -1,11 +1,22 @@
 # PsyApp
+Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) com Sharpnado.MaterialFrame e consumo de API.
 
-Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) com Sharpnado.MaterialFrame e consumindo a API: https://psychonauts-api.netlify.app/
+## Plugins e Framework
+#### Plugins
+- Sharpnado.MaterialFrame
+- Newtonsoft.Json
+#### Framework
+- Xamarin.Forms (4.8.0.1451)
+- Xamarin.Essentials (1.5.4.2)
 
-Pacote utilizado: Sharpnado.MaterialFrame: https://github.com/roubachof/Sharpnado.MaterialFrame#sharpnadomaterialframe
+## API Utilizada
+- https://psychonauts-api.netlify.app/
 
-Consumindo API no Xamarin.Forms: https://eduardoreisdev.medium.com/consumindo-api-no-xamarin-forms-1c9b85b60f08
+## Medium
+Leia mais sobre a aplicação.
+- https://eduardoreisdev.medium.com/consumindo-api-no-xamarin-forms-1c9b85b60f08
+- https://eduardoreisdev.medium.com/efeito-acr%C3%ADlico-glassmorphism-no-xamarin-forms-434053b6b11e
 
-Efeito acrílico/Glassmorphism no Xamarin.Forms: https://eduardoreisdev.medium.com/efeito-acr%C3%ADlico-glassmorphism-no-xamarin-forms-434053b6b11e
+## Resuldo no iOS
 
 https://user-images.githubusercontent.com/52722526/158368036-85e546f1-7d27-4706-b4d7-819b2d0ad504.mp4
