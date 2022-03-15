@@ -5,6 +5,7 @@ Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) com Sharpnado.MaterialF
 Pacote utilizado: Sharpnado.MaterialFrame https://github.com/roubachof/Sharpnado.MaterialFrame#sharpnadomaterialframe
 
 Consumindo API no Xamarin.Forms: https://eduardoreisdev.medium.com/consumindo-api-no-xamarin-forms-1c9b85b60f08
+
 Efeito acrílico/Glassmorphism no Xamarin.Forms: https://eduardoreisdev.medium.com/efeito-acr%C3%ADlico-glassmorphism-no-xamarin-forms-434053b6b11e
 
 ![Simulator Screen Shot - iPhone 12 - 2022-03-14 at 20 59 25](https://user-images.githubusercontent.com/52722526/158280546-c1621219-cc3b-4e46-844c-4d925e213e99.png)
