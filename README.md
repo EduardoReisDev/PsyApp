@@ -1,4 +1,4 @@
-# PsyApp
+# PsyApp :brain:
 Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) com Sharpnado.MaterialFrame e consumo de API.
 
 ## Plugins e Framework
